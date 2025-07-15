@@ -14,6 +14,7 @@ function App() {
     {items.map((item, index) =>(
       <React.Fragment key={index}>
         <h3>{item}</h3>
+        <p>Some fruit</p>
       </React.Fragment>
     ))} 
       <h1>Hello</h1>
