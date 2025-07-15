@@ -22,7 +22,8 @@ function App() {
       <h1>Hello</h1>
       <Greetings name="Dave" />
       <Greetings />
-      <h1>User info</h1>
+      <h1>User info</h1> 
+      
       <UserProfile name='Jane Doe' age={25} isMember={true} />
       <Counter/>
     </>
