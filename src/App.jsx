@@ -13,7 +13,7 @@ function App() {
   // React Fragments
   return (
     <>
-      {items.map((item, index) => (
+      {/* {items.map((item, index) => (
         <React.Fragment key={index}>
           <h3>{item}</h3>
           <p>Some fruit</p>
@@ -23,8 +23,8 @@ function App() {
       <Greetings name="Dave" />
       <Greetings />
       <h1>User info</h1> 
-      
-      <UserProfile name='Jane Doe' age={25} isMember={true} />
+      */}
+      <UserProfile />
       <Counter/>
     </>
   )
