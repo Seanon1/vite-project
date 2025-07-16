@@ -5,6 +5,7 @@ import Counter from './components/Counter'
 import TodoList from './components/TodoList'
 import ClickHandler from './components/ClickHandler'
 import InputHandler from './components/InputHandler'
+import FormHandler from './components/FormHandler'
 
 function App() {
   const name = "Bob";
@@ -32,6 +33,7 @@ function App() {
       <TodoList />
       <ClickHandler/>
       <InputHandler/>
+      <FormHandler/>
     </>
   )
 }
