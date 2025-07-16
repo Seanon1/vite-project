@@ -1,8 +1,13 @@
 import React from 'react'
 
 function InputHandler() {
+  function handleChange(event) {
+    console.log('Typed: ', event.target.value);
+  }
   return (
-    <div>InputHandler</div>
+    <div>
+      <input type="text" onChange={handleChange} placeholder='Type here...' />
+    </div>
   )
 }
 
