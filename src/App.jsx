@@ -8,6 +8,7 @@ import InputHandler from './components/InputHandler'
 import FormHandler from './components/FormHandler'
 import Greeting from './components/Greeting'
 import UserRole from './components/UserRole'
+import Image from './components/Image'
 
 function App() {
   const name = "Bob";
@@ -36,8 +37,9 @@ function App() {
       <ClickHandler/>
       <InputHandler/>
       <FormHandler/>
-      <Greeting isLoggedin/>
+      <Greeting isLoggedin={true}/>
       <UserRole role={'Editor'}/>
+      <Image/>
     </>
   )
 }
