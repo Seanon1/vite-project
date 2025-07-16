@@ -8,7 +8,7 @@ function UserProfile() {
         <p>Name: {name}</p>
         <p>Age: {age}</p>
         <input type="text" value={name} onChange={(e) => setName(e.target.value)}/>
-        <input type="number" value={age} onChange={(e) => setName(e.target.value)}/>
+        <input type="number" value={age} onChange={(e) => setAge(e.target.value)}/>
     </div>
   )
 }

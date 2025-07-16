@@ -1,14 +1,17 @@
 import React from 'react'
 import Greetings from './components/Greetings'
 import UserProfile from './components/UserProfile'
-import Counter from './components/Counter';
+import Counter from './components/Counter'
+import TodoList from './components/TodoList'
+import ClickHandler from './components/ClickHandler'
+import InputHandler from './components/InputHandler'
 
 function App() {
-    const name = "Bob";
-    const element = <h2>Hello, {name};</h2>
+  const name = "Bob";
+  const element = <h2>Hello, {name};</h2>
 
-    // const [state, setState] = useState(initialValue);
-     const items = ['Apple', 'Orange', 'Grape'];
+  // const [state, setState] = useState(initialValue);
+  const items = ['Apple', 'Orange', 'Grape'];
 
   // React Fragments
   return (
@@ -23,9 +26,12 @@ function App() {
       <Greetings name="Dave" />
       <Greetings />
       <h1>User info</h1> 
-      */}
+    */}
       <UserProfile />
-      <Counter/>
+      <Counter />
+      <TodoList />
+      <ClickHandler/>
+      <InputHandler/>
     </>
   )
 }
