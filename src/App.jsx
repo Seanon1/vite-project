@@ -9,6 +9,8 @@ import FormHandler from './components/FormHandler'
 import Greeting from './components/Greeting'
 import UserRole from './components/UserRole'
 import Image from './components/Image'
+import ControlledInput from './components/ControlledInput'
+import MultiinputForm from './components/MultiinputForm'
 
 function App() {
   const name = "Bob";
@@ -40,6 +42,8 @@ function App() {
       <Greeting isLoggedin={true}/>
       <UserRole role={'Editor'}/>
       <Image/>
+      <ControlledInput/>
+      <MultiinputForm/>
     </>
   )
 }
